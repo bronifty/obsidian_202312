@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gcp-data-ml/1. intro.md",
+                "file": "gcp-data-ml/2. data proc.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "gcp-data-ml/1. intro.md",
+                "file": "gcp-data-ml/2. data proc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "gcp-data-ml/1. intro.md",
+                "file": "gcp-data-ml/2. data proc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "gcp-data-ml/1. intro.md"
+                "file": "gcp-data-ml/2. data proc.md"
               }
             }
           }
@@ -149,6 +149,7 @@
   "active": "1c37ce4a2be598f6",
   "lastOpenFiles": [
     "gcp-data-ml/1. intro.md",
+    "gcp-data-ml/2. data proc.md",
     "gcp-data-ml"
   ]
 }
