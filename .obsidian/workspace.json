@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gcp-data-ml/2. data proc.md",
+                "file": "pathwaycom/llm-app.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "gcp-data-ml/2. data proc.md",
+                "file": "pathwaycom/llm-app.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "gcp-data-ml/2. data proc.md",
+                "file": "pathwaycom/llm-app.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "gcp-data-ml/2. data proc.md"
+                "file": "pathwaycom/llm-app.md"
               }
             }
           }
@@ -148,8 +148,12 @@
   },
   "active": "1c37ce4a2be598f6",
   "lastOpenFiles": [
-    "gcp-data-ml/1. intro.md",
+    "keystatic/next.md",
+    "pathwaycom/llm-app.md",
+    "pathwaycom",
     "gcp-data-ml/2. data proc.md",
+    "keystatic",
+    "gcp-data-ml/1. intro.md",
     "gcp-data-ml"
   ]
 }
