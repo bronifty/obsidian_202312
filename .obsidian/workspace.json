@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pathwaycom/llm-app RAG Operation.md",
+                "file": "gcp-data-ml/3. big query.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pathwaycom/llm-app RAG Operation.md",
+                "file": "gcp-data-ml/3. big query.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pathwaycom/llm-app RAG Operation.md",
+                "file": "gcp-data-ml/3. big query.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pathwaycom/llm-app RAG Operation.md"
+                "file": "gcp-data-ml/3. big query.md"
               }
             }
           }
@@ -146,14 +146,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1c37ce4a2be598f6",
+  "active": "0c52ab038a82a031",
   "lastOpenFiles": [
-    "keystatic/next.md",
-    "pathwaycom/llm-app RAG Operation.md",
-    "pathwaycom",
+    "gcp-data-ml/gcp-data.png",
     "gcp-data-ml/2. data proc.md",
-    "keystatic",
+    "gcp-data-ml/3. big query.md",
     "gcp-data-ml/1. intro.md",
+    "pathwaycom/llm-app RAG Operation.md",
+    "keystatic/next.md",
+    "pathwaycom",
+    "keystatic",
     "gcp-data-ml"
   ]
 }

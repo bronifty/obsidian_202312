@@ -26,3 +26,10 @@ https://github.com/pathwaycom/llm-app.git
 > Note: read pathway docs on Louvain community detection graphs
 
 
+### Lessons
+- adaptive learning from updated documentation; dynamic adaptability from changing data sources
+- Use an S3 input connector in Pathway.
+- Generating vector embeddings using an LLM.
+- Creating a k-Nearest Neighbors (k-NN) powered Index.
+- Expanding the bot's capabilities to respond to user queries.
+- 
