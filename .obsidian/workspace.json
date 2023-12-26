@@ -146,11 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0c52ab038a82a031",
+  "active": "1c37ce4a2be598f6",
   "lastOpenFiles": [
+    "gcp-data-ml/bigquery-ml-models.png",
+    "gcp-data-ml/3. big query.md",
     "gcp-data-ml/gcp-data.png",
     "gcp-data-ml/2. data proc.md",
-    "gcp-data-ml/3. big query.md",
     "gcp-data-ml/1. intro.md",
     "pathwaycom/llm-app RAG Operation.md",
     "keystatic/next.md",
