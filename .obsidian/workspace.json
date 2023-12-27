@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wasmcloud/README.md",
+                "file": "gcp-data-ml/3. big query.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wasmcloud/README.md",
+                "file": "gcp-data-ml/3. big query.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wasmcloud/README.md",
+                "file": "gcp-data-ml/3. big query.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wasmcloud/README.md"
+                "file": "gcp-data-ml/3. big query.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "1c37ce4a2be598f6",
   "lastOpenFiles": [
-    "gcp-data-ml/3. big query.md",
     "wasmcloud/README.md",
+    "gcp-data-ml/3. big query.md",
     "wasmcloud",
     "gcp-data-ml/bigquery-ml-models.png",
     "gcp-data-ml/gcp-data.png",
