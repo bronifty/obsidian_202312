@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2319ec9bd5bf2685",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4. vertex ai.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "gcp-data-ml/3. big query.md",
+                "file": "4. vertex ai.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "gcp-data-ml/3. big query.md",
+                "file": "4. vertex ai.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "gcp-data-ml/3. big query.md"
+                "file": "4. vertex ai.md"
               }
             }
           }
@@ -146,10 +159,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1c37ce4a2be598f6",
+  "active": "2319ec9bd5bf2685",
   "lastOpenFiles": [
-    "wasmcloud/README.md",
+    "gcp-data-ml/google-ml-options.png",
     "gcp-data-ml/3. big query.md",
+    "4. vertex ai.md",
+    "wasmcloud/README.md",
     "wasmcloud",
     "gcp-data-ml/bigquery-ml-models.png",
     "gcp-data-ml/gcp-data.png",
