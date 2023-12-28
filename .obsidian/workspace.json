@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gcp-data-ml/4. vertex ai.md",
+                "file": "gcp-data-ml/5. vertex ai.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "gcp-data-ml/4. vertex ai.md",
+                "file": "gcp-data-ml/5. vertex ai.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "gcp-data-ml/4. vertex ai.md",
+                "file": "gcp-data-ml/5. vertex ai.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "gcp-data-ml/4. vertex ai.md"
+                "file": "gcp-data-ml/5. vertex ai.md"
               }
             }
           }
@@ -161,10 +161,12 @@
   },
   "active": "2319ec9bd5bf2685",
   "lastOpenFiles": [
+    "gcp-data-ml/4. gcp ml options.md",
+    "gcp-data-ml/5. vertex ai.md",
+    "Untitled",
     "gcp-data-ml/1. intro.md",
     "gcp-data-ml/2. data proc.md",
     "gcp-data-ml/3. big query.md",
-    "gcp-data-ml/4. vertex ai.md",
     "gcp-data-ml/google-ai-solutions.png",
     "gcp-data-ml/google-ml-options.png",
     "wasmcloud/README.md",
