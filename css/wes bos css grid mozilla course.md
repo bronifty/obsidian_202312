@@ -450,10 +450,31 @@ grid-column: 1 / span 2;
 ![](./practice.png)
 
 
+- auto-fit, auto-fill minmax
+- auto-fill automatically fills columns to the right when the viewport width expands (even if there is no content, there are still new columns being created)
+- auto-fit automatically fits the number of columns to the content
+	- fit refers to column and viewport relationship rather than data to column (if the content is wider than your minmax, it will not magically make the column wider)
+```css
+.container {
+        display: grid;
+        grid-gap: 20px;
+        border: 10px solid var(--yellow);
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        
+      }
+      ```
 
-
-
-
+- fit-content will clamp your content
+```css
+.container {
+        display: grid;
+        grid-gap: 20px;
+        border: 10px solid var(--yellow);
+        /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+        grid-template-columns: fit-content(100px) fit-content(100px);
+      }
+```
 
 
 
