@@ -161,6 +161,9 @@
   },
   "active": "2319ec9bd5bf2685",
   "lastOpenFiles": [
+    "gcp-data-ml/ml-ops.png",
+    "gcp-data-ml/feature-importance.png",
+    "gcp-data-ml/recall-and-precision.png",
     "gcp-data-ml/confusion-matrix.png",
     "rust/notes.md",
     "gcp-data-ml/5. vertex ai.md",
