@@ -148,6 +148,7 @@
   },
   "active": "f7f6b274ee6197c0",
   "lastOpenFiles": [
+    "css/whole-grid.png",
     "css/grid-row.png",
     "css/offset-from-end.png",
     "css/full-width.png",
@@ -162,7 +163,6 @@
     "wasmcloud/README.md",
     "css",
     "gcp-data-ml/02 intro to ai & ml on gcp/intro.md",
-    "gcp-data-ml/02 intro to ai & ml on gcp/fine-tuning.png",
     "gcp-data-ml/01 foundation/5. vertex ai.md",
     "gcp-data-ml/02 intro to ai & ml on gcp",
     "gcp-data-ml/01 foundation",

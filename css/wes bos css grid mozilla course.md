@@ -373,6 +373,23 @@ grid-column: 1 / span 2;
 ```
 ![](./grid-row.png)
 
+- take up the entire explicit grid with 1 / -1
+```css
+.container {
+        border: 10px solid var(--yellow);
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+      }
+      .item9 {
+        background: mistyrose;
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
+      }
+```
+![](./whole-grid.png)
+
 
 
 
