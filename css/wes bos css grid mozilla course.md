@@ -596,6 +596,23 @@ grid-column: 1 / span 2;
 ![](./line-names.png)
 
 
+```css
+.container {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 1fr 500px 1fr;
+        grid-template-rows: repeat(10, auto);
+      }
+      .item3 {
+        background: slateblue;
+        grid-column: 2;
+        grid-row: 1 / span 10;
+      }
+```
+![](./item3.png)
+
+- CSS Grid Template Areas with Named Lines
+![](./conservative-dads.png)
 
 
 
