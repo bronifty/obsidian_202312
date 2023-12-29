@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "9b1e78fdf0a4abd4",
+        "id": "9db818a4265b375d",
         "type": "tabs",
         "children": [
           {
-            "id": "1c37ce4a2be598f6",
+            "id": "275a57c8c2686091",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gcp-data-ml/3. big query.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2319ec9bd5bf2685",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "gcp-data-ml/5. vertex ai.md",
+                "file": "css/wes bos css grid mozilla course.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "gcp-data-ml/5. vertex ai.md",
+                "file": "css/wes bos css grid mozilla course.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "gcp-data-ml/5. vertex ai.md",
+                "file": "css/wes bos css grid mozilla course.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "gcp-data-ml/5. vertex ai.md"
+                "file": "css/wes bos css grid mozilla course.md"
               }
             }
           }
@@ -159,25 +146,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2319ec9bd5bf2685",
+  "active": "275a57c8c2686091",
   "lastOpenFiles": [
-    "gcp-data-ml/ml-ops.png",
-    "gcp-data-ml/feature-importance.png",
-    "gcp-data-ml/recall-and-precision.png",
-    "gcp-data-ml/confusion-matrix.png",
-    "rust/notes.md",
-    "gcp-data-ml/5. vertex ai.md",
-    "rust",
-    "gcp-data-ml/4. gcp ml options.md",
-    "gcp-data-ml/1. intro.md",
-    "gcp-data-ml/2. data proc.md",
-    "gcp-data-ml/3. big query.md",
-    "gcp-data-ml/google-ai-solutions.png",
-    "gcp-data-ml/google-ml-options.png",
     "wasmcloud/README.md",
+    "css/wes bos css grid mozilla course.md",
+    "css",
+    "gcp-data-ml/02 intro to ai & ml on gcp/intro.md",
+    "gcp-data-ml/02 intro to ai & ml on gcp/fine-tuning.png",
+    "gcp-data-ml/02 intro to ai & ml on gcp/vertex-ai.png",
+    "gcp-data-ml/02 intro to ai & ml on gcp/ml-pipelines.png",
+    "gcp-data-ml/01 foundation/5. vertex ai.md",
+    "gcp-data-ml/02 intro to ai & ml on gcp",
+    "gcp-data-ml/01 foundation/recall-and-precision.png",
+    "gcp-data-ml/01 foundation",
+    "gcp-data-ml/01 foundation/ml-ops.png",
+    "gcp-data-ml/01 foundation/feature-importance.png",
+    "gcp-data-ml/01 foundation/confusion-matrix.png",
+    "rust/notes.md",
+    "rust",
+    "gcp-data-ml/01 foundation/4. gcp ml options.md",
+    "gcp-data-ml/01 foundation/1. intro.md",
+    "gcp-data-ml/01 foundation/2. data proc.md",
+    "gcp-data-ml/01 foundation/3. big query.md",
+    "gcp-data-ml/01 foundation/google-ai-solutions.png",
+    "gcp-data-ml/01 foundation/google-ml-options.png",
     "wasmcloud",
-    "gcp-data-ml/bigquery-ml-models.png",
-    "gcp-data-ml/gcp-data.png",
+    "gcp-data-ml/01 foundation/bigquery-ml-models.png",
     "pathwaycom/llm-app RAG Operation.md",
     "keystatic/next.md",
     "pathwaycom",
