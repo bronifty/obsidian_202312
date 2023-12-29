@@ -353,6 +353,16 @@ grid-column: 1 / span 2;
 ```
 ![](./full-width.png)
 
+- offset from the end
+```css
+.item9 {
+        background: mistyrose;
+        grid-column: 1 / -2;
+      }
+```
+![](./offset-from-end.png)
+
+
 
 
 
