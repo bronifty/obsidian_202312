@@ -477,6 +477,65 @@ grid-column: 1 / span 2;
 ```
 
 
+- grid-template-areas and grid-area
+```html
+<div class="container">
+      <div class="item item1">
+        <p>I'm Sidebar #1</p>
+      </div>
+      <div class="item item2">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+          sed.
+        </p>
+        <p>Lorem ipsum d</p>
+      </div>
+      <div class="item item3">
+        <p>I'm Sidebar #2</p>
+      </div>
+      <div class="item footer">
+        <p>I'm the footer</p>
+      </div>
+    </div>
+
+    <style>
+      .container {
+        display: grid;
+        grid-gap: 20px;
+        border: 10px solid var(--yellow);
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+          "sidebar-1"
+          "content"
+          "sidebar-2"
+          "footer";
+      }
+      .footer {
+        grid-area: footer;
+      }
+      .item1 {
+        grid-area: sidebar-1;
+      }
+      .item2 {
+        grid-area: content;
+      }
+      .item3 {
+        grid-area: sidebar-2;
+      }
+
+      @media (min-width: 900px) {
+        .container {
+          grid-template-columns: 1fr 500px 1fr;
+          grid-template-rows: 150px 150px 100px;
+          grid-template-areas:
+            "sidebar-1 content sidebar-2"
+            "sidebar-1 content sidebar-2"
+            "footer footer footer";
+        }
+      }
+    </style>
+```
 
 
 
