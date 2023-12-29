@@ -344,6 +344,15 @@ grid-column: 1 / span 2;
 ```
 ![](./column1-span2.png)
 
+- full width
+```css
+.item9 {
+        background: mistyrose;
+        grid-column: 1 / -1;
+      }
+```
+![](./full-width.png)
+
 
 
 
