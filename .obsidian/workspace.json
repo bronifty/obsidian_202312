@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f6a900f763e84ff6",
@@ -148,8 +149,8 @@
   },
   "active": "275a57c8c2686091",
   "lastOpenFiles": [
-    "wasmcloud/README.md",
     "css/wes bos css grid mozilla course.md",
+    "wasmcloud/README.md",
     "css",
     "gcp-data-ml/02 intro to ai & ml on gcp/intro.md",
     "gcp-data-ml/02 intro to ai & ml on gcp/fine-tuning.png",
