@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9db818a4265b375d",
+        "id": "84a304f5efa39238",
         "type": "tabs",
         "children": [
           {
-            "id": "275a57c8c2686091",
+            "id": "f7f6b274ee6197c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f6a900f763e84ff6",
@@ -147,8 +146,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "275a57c8c2686091",
+  "active": "f7f6b274ee6197c0",
   "lastOpenFiles": [
+    "css/auto.png",
     "css/wes bos css grid mozilla course.md",
     "wasmcloud/README.md",
     "css",
