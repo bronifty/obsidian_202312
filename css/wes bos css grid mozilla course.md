@@ -362,6 +362,16 @@ grid-column: 1 / span 2;
 ```
 ![](./offset-from-end.png)
 
+- grid-row
+	- puts it out of order 
+```css
+.item9 {
+        background: mistyrose;
+        grid-column: 1 / -2;
+        grid-row: 4 / span 2;
+      }
+```
+![](./grid-row.png)
 
 
 
