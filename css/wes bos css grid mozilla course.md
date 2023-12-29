@@ -335,6 +335,14 @@
 ```
 ![](./span2-from-the-end.png)
 
+- tell it where to start and how far to go
+```css
+.item9 {
+background: mistyrose;
+grid-column: 1 / span 2;
+}
+```
+![](./column1-span2.png)
 
 
 
