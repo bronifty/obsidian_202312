@@ -148,6 +148,7 @@
   },
   "active": "f7f6b274ee6197c0",
   "lastOpenFiles": [
+    "css/grid-column-start-end.png",
     "css/span-implicit-columns.png",
     "css/item-spanning.png",
     "css/auto.png",
@@ -171,7 +172,6 @@
     "gcp-data-ml/01 foundation/1. intro.md",
     "gcp-data-ml/01 foundation/2. data proc.md",
     "gcp-data-ml/01 foundation/3. big query.md",
-    "gcp-data-ml/01 foundation/google-ai-solutions.png",
     "wasmcloud",
     "pathwaycom/llm-app RAG Operation.md",
     "keystatic/next.md",
