@@ -657,3 +657,17 @@ grid-column: 1 / span 2;
       }```
 ![](./justify-items-center.png)
 
+```css
+.container {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: repeat(5, 100px);
+        justify-items: center; /* start end center stretch  */
+        align-items: center; /* start end center stretch  */
+      }
+```
+![](./align-items-center.png)
+
+
+
