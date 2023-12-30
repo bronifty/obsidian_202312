@@ -614,5 +614,46 @@ grid-column: 1 / span 2;
 - CSS Grid Template Areas with Named Lines
 ![](./conservative-dads.png)
 
+- grid autoflow dense
+```css
+.container {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(10, 1fr);
+      }
+      .item:nth-child(6n) {
+        background: cornflowerblue;
+        grid-column: span 6;
+      }
+```
 
+![](./dense-before.png)
+![](./dense-after.png)
+
+### Grid Alignment and Centering
+```css
+/*
+        justify-items:
+        align-items:
+
+        justify-content:
+        align-content:
+
+        align-self:
+        justify-self:
+
+        justify-* is row axis
+        align-* is column axis
+      */
+
+      .container {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(10, 1fr);
+        justify-items: center; 
+      }
+      .itm {
+        background: white;
+      }```
+![](./justify-items-center.png)
 
