@@ -683,6 +683,46 @@ grid-column: 1 / span 2;
       }
 ```
 
+- justify-* and align-* is for hardcoded values where you want to tell the grid how to layout remaining space (not using fractional units where it flows automatically)
+- place-items (and align/justify-items) is about placing the items (the actual content in the content box), whereas justify and align content is about the actual box per se
+
+```css
+/*
+        justify-items:
+        align-items:
+
+        justify-content:
+        align-content:
+
+        align-self:
+        justify-self:
+
+        justify-* is row axis
+        align-* is column axis
+      */
+
+      .container {
+        border: 10px solid var(--yellow);
+        display: grid;
+        grid-gap: 20px;
+        height: 500px;
+        grid-template-columns: repeat(5, 130px);
+
+        /* justify-items: center; start end center stretch  */
+        /* align-items: center; start end center stretch */
+        place-items: stretch stretch; /* center start end stretch */
+        justify-content: space-between; /* start end center space-evenly space-around space-between */
+        align-content: space-evenly; /* start end center space-evenly space-around space-between */
+      }
+      .itm {
+        background: white;
+      }
+      .itm5 {
+        justify-self: center;
+        align-self: center;
+      }
+```
+![](./align-justify.png)
 
 
 
