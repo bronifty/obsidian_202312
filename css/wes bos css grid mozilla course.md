@@ -4,10 +4,16 @@ TL;DR
 	display: grid;
 	gap: 20px;
 	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-	grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+	grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
 	/* start end center stretch space-evenly space-around space-between */
 	place-items: center center;
 	place-content: center center; 
+	justify-self: stretch;
+	align-self: stretch;
+	justify-content: stretch;
+	align-content: stretch;
+	justify-items: stretch;
+	align-items: stretch;
 }
 ```
 
