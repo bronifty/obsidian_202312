@@ -14,6 +14,7 @@ TL;DR
 	align-content: stretch;
 	justify-items: stretch;
 	align-items: stretch;
+	order: 1; /* order property is default 0 meaning first */
 }
 ```
 
