@@ -1062,4 +1062,140 @@ grid-column: 1 / span 2;
 </html>
 ```
 
+![](./playlist.png)
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/style.css">
+  <title>Flexbox vs CSS Grid: Controls on Right!</title>
+</head>
+
+<body>
+
+  <!-- The everything on the right except the one thing -->
+
+  <div class="tracks">
+    <div class="track">
+      <h2>The Future (Ft. The R.O.C.)</h2>
+      <button>⭐</button>
+      <button>❤️</button>
+      <button>❌</button>
+    </div>
+    <div class="track">
+      <h2>Bounce With Me (Ft. Jermaine Dupri & Xscape)</h2>
+      <button>⭐</button>
+      <button>❤️</button>
+      <button>❌</button>
+    </div>
+    <div class="track">
+      <h2>Puppy Love (Ft. Jagged Edge & Jermaine Dupri)</h2>
+      <button>⭐</button>
+      <button>❤️</button>
+      <button>❌</button>
+    </div>
+    <div class="track">
+      <h2>You Know Me (Ft. Da Brat & Jermaine Dupri)</h2>
+      <button>⭐</button>
+      <button>❤️</button>
+      <button>❌</button>
+    </div>
+    <div class="track">
+      <h2>The Dog in Me</h2>
+      <button>⭐</button>
+      <button>❤️</button>
+      <button>❌</button>
+    </div>
+    <div class="track">
+      <h2>Bow Wow (That's My Name) (Ft. Snoop Dogg)</h2>
+      <button>⭐</button>
+      <button>❤️</button>
+      <button>❌</button>
+    </div>
+  </div>
+  <style>
+    .track {
+      background: white;
+      padding: 10px;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-auto-flow: column;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</body>
+
+</html>
+```
+
+
+![](./controls.png)
+- auto in gtc (grid-template-columns) is like fit to contents
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/style.css" />
+    <title>Flexbox vs CSS Grid: Flex on Item!</title>
+  </head>
+
+  <body>
+    <!-- The Longer Item in the middle -->
+    <div class="controls">
+      <button>⏯️</button>
+      <button>🐢</button>
+      <button>🐰</button>
+      <div class="scrubber"></div>
+      <button>💬</button>
+      <button>🔽</button>
+    </div>
+
+    <style>
+      .controls {
+        margin: 200px 0;
+        display: grid;
+        grid-template-columns: auto auto auto 1fr auto auto;
+        place-items: center stretch;
+      }
+
+      .scrubber {
+        background: #bada55;
+        height: 10px;
+        min-width: 100px;
+        border-radius: 10px;
+      }
+    </style>
+  </body>
+</html>
+
+
+```
+
+
+BUT the above can be replaced with display: flex; and on the item to stretch: flex: 1; this saves us from having to specify the width of each item and only specify making 1 stretchy;
+
+```css
+ .controls {
+        margin: 200px 0;
+        /* display: grid;
+        grid-template-columns: auto auto auto 1fr auto auto; */
+        display: flex;
+        place-items: center stretch;
+      }
+
+      .scrubber {
+        background: #bada55;
+        height: 10px;
+        min-width: 100px;
+        border-radius: 10px;
+        flex: 1;
+      }
+```
 
