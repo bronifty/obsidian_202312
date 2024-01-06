@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f6a900f763e84ff6",
@@ -149,6 +148,8 @@
   },
   "active": "275a57c8c2686091",
   "lastOpenFiles": [
+    "css/dense-after.png",
+    "css/wes bos css grid mozilla course.md",
     "gcp-data-ml/2 data lakes/1. intro.md",
     "gcp-data-ml/2 data lakes",
     "gcp-data-ml/1 fundamentals/recall-and-precision.png",
@@ -167,7 +168,6 @@
     "gcp-data-ml/1 fundamentals",
     "css/whole-grid.png",
     "css/topography.svg",
-    "css/wes bos css grid mozilla course.md",
     "wasmcloud/README.md",
     "css",
     "gcp-data-ml/02 intro to ai & ml on gcp/intro.md",
