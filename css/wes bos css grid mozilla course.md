@@ -971,7 +971,7 @@ grid-column: 1 / span 2;
 
       .overlay-inner {
         background: white;
-        width: 700px;
+        width: 70vw;
         padding: 20px;
       }
 
@@ -1014,6 +1014,41 @@ grid-column: 1 / span 2;
       const digits = Array.from({ length: 50 }, () => [
         randomNumber(4),
         randomNumber(4),
+      ]).concat([
+        [1, 1],
+        [1, 1],
+        [1, 1],
+        [1, 1],
+        [1, 1],
+        [1, 1],
+        [1, 1],
+        [1, 1],
+        [1, 1],
+        [1, 1],
+        [1, 1],
+        [1, 1],
+        [1, 1],
+        [1, 1],
+        [1, 1],
+        [1, 1],
+        [1, 1],
+        [1, 1],
+        [1, 1],
+        [1, 1],
+        [1, 1],
+        [1, 1],
+        [1, 1],
+        [1, 1],
+        [1, 1],
+        [1, 1],
+        [1, 1],
+        [1, 1],
+        [1, 1],
+        [1, 1],
+        [1, 1],
+        [1, 1],
+        [1, 1],
+        [1, 1],
       ]);
 
       const html = digits.map(generateHTML).join("");
@@ -1026,3 +1061,5 @@ grid-column: 1 / span 2;
   </body>
 </html>
 ```
+
+
