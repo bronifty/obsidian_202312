@@ -1199,3 +1199,20 @@ BUT the above can be replaced with display: flex; and on the item to stretch: fl
       }
 ```
 
+
+### Recipes
+- set 1 column and let all subsequent items flow (if you have multiple buttons or other items you don't want to count and keep track of)
+	- we used this with the 'controls on the right' example
+```css
+.pen {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-flow: column;
+  align-items: center;
+  grid-gap: 10px;
+}
+```
+
+
+
+
