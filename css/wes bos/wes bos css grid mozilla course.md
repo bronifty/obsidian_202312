@@ -197,7 +197,7 @@ h6 {
     </style>
   </body>
 ```
-![](./auto.png)
+![](auto.png)
 
 - repeat
 ```html
@@ -260,7 +260,7 @@ h6 {
       }
     </style>
 ```
-![](./item-spanning.png)
+![](item-spanning.png)
 
 - more spanning
 	- implicit columns
@@ -312,7 +312,7 @@ h6 {
       }
     </style>
 ```
-![](./span-implicit-columns.png)
+![](span-implicit-columns.png)
 
 - grid-column is shorthand for grid-column-start and grid-column end; let's make it explicit in order to place the item in a specific location on the grid
 ```html
@@ -363,7 +363,7 @@ h6 {
       }
     </style>
 ```
-![](./grid-column-start-end.png)
+![](grid-column-start-end.png)
 
 - now we can use the shorthand
 ```html
@@ -413,7 +413,7 @@ h6 {
       }
     </style>
 ```
-![](./grid-column-shorthand.png)
+![](grid-column-shorthand.png)
 
 - span 2 end at 6 (gives you span 2 starting from the end)
 ```html
@@ -430,7 +430,7 @@ h6 {
       }
     </style>
 ```
-![](./span2-from-the-end.png)
+![](span2-from-the-end.png)
 
 - tell it where to start and how far to go
 ```css
@@ -439,7 +439,7 @@ background: mistyrose;
 grid-column: 1 / span 2;
 }
 ```
-![](./column1-span2.png)
+![](column1-span2.png)
 
 - full width
 ```css
@@ -448,7 +448,7 @@ grid-column: 1 / span 2;
         grid-column: 1 / -1;
       }
 ```
-![](./full-width.png)
+![](full-width.png)
 
 - offset from the end
 ```css
@@ -457,7 +457,7 @@ grid-column: 1 / span 2;
         grid-column: 1 / -2;
       }
 ```
-![](./offset-from-end.png)
+![](offset-from-end.png)
 
 - grid-row
 	- puts it out of order 
@@ -468,7 +468,7 @@ grid-column: 1 / span 2;
         grid-row: 4 / span 2;
       }
 ```
-![](./grid-row.png)
+![](grid-row.png)
 
 - take up the entire explicit grid with 1 / -1
 ```css
@@ -485,7 +485,7 @@ grid-column: 1 / span 2;
         grid-row: 1 / -1;
       }
 ```
-![](./whole-grid.png)
+![](whole-grid.png)
 
 - grid-column span 2 grid-row 1 negative 1
 ```css
@@ -690,7 +690,7 @@ grid-column: 1 / span 2;
         grid-row-end: 👀-end;
       }
 ```
-![](./line-names.png)
+![](line-names.png)
 
 
 ```css
@@ -706,7 +706,7 @@ grid-column: 1 / span 2;
         grid-row: 1 / span 10;
       }
 ```
-![](./item3.png)
+![](item3.png)
 
 - CSS Grid Template Areas with Named Lines
 ```css
@@ -724,7 +724,7 @@ grid-column: 1 / span 2;
       /* grid-row: 1 / span 10; */
     }
 ```
-![](./conservative-dads.png)
+![](conservative-dads.png)
 
 - grid autoflow dense
 ```css
@@ -739,8 +739,8 @@ grid-column: 1 / span 2;
       }
 ```
 
-![](./dense-before.png)
-![](./dense-after.png)
+![](dense-before.png)
+![](dense-after.png)
 
 ### Grid Alignment and Centering
 ```css
@@ -779,7 +779,7 @@ grid-column: 1 / span 2;
         align-items: center; /* start end center stretch  */
       }
 ```
-![](./align-items-center.png)
+![](align-items-center.png)
 
 - place items is a shorthand for justify and align similar to grid-row and grid-column
 ```css
@@ -834,7 +834,7 @@ grid-column: 1 / span 2;
         align-self: center;
       }
 ```
-![](./align-justify.png)
+![](align-justify.png)
 
 
 
@@ -1062,7 +1062,7 @@ grid-column: 1 / span 2;
 </html>
 ```
 
-![](./playlist.png)
+![](playlist.png)
 
 ```html
 <!DOCTYPE html>
@@ -1133,7 +1133,7 @@ grid-column: 1 / span 2;
 ```
 
 
-![](./controls.png)
+![](controls.png)
 - auto in gtc (grid-template-columns) is like fit to contents
 
 ```html
