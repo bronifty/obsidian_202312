@@ -7,3 +7,4 @@ dynmically ship code around to be dynamically exeecuted, but you aren't going to
 It won't be a serialized version of my entire program and all of its dependencies, it will be a hash of a tree, which is a tree of other hashes.
 
 The remote node can inspect the tree and ask for or gossip to find out the definitions for whatever hashes in that tree it doesn't already know about. It can inspect the node for any forbidden hashes (for example, you can'd do arbitrary IO), then the remote node can evaluate the closure, and return a result.
+.
