@@ -13,3 +13,16 @@ grass {
 }
 ```
 
+### Grid Area
+![](./media/grid-area.png)
+```css
+planet {
+  display: grid;
+  grid-template-columns: [left] 190px 190px [right];
+  grid-template-rows: [top] 1fr 1fr 1fr 1fr [bottom];
+}
+
+dunes {
+  grid-area: top / left / bottom / right;
+}
+```
